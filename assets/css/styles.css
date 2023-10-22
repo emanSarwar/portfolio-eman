@@ -729,17 +729,17 @@ font-size: 1.25rem;
   .nav{
     height: calc(var(--header-height) + 1.5rem);
   }
-  .nav__close,
-  .nav__toogle{
+  .nav__toogle,
+  .nav__close{
     display: none;
   }
   .nav__list{
     flex-direction: row;
     column-gap: 3rem;
   }
-  .nav__menu{
+  /* .nav__menu{
     width: initial;
-  }
+  } */
 
   .blur-header::after{
     backdrop-filter: blur(25px);
@@ -755,6 +755,12 @@ font-size: 1.25rem;
     column-gap: 7rem;
     padding-block: 2rem 3rem;
   }
+
+  .nav__close,
+  .nav__toogle{
+    display: none;
+  }
+
   .home__blob{
     width: 550px;
 
